@@ -1,0 +1,85 @@
+{
+  "innerCode": 200,
+  "data": {
+    "name":"AI Script Converter Test",
+    "description": "This is just a test.",
+    "Timeout": null,
+    "class":[],
+    "rootSettings": {
+      "isCollapse": false,
+      "activitySettings": [
+        {
+          "value": "C#",
+          "required": true,
+          "key": "source",
+          "label": "Source Language",
+          "labelKey": "SOURCE_LABEL",
+          "baseType": "control",
+          "controlType": "dropdown",
+          "controlOptions": [
+            {
+              "label": "C#",
+              "value": "C#"
+            },
+            {
+              "label": "Python",
+              "value": "Python"
+            }
+          ]
+        },
+        {
+          "value": "Python",
+          "required": true,
+          "key": "target",
+          "label": "Target Language",
+          "labelKey": "TARGET_LABEL",
+          "baseType": "control",
+          "controlType": "dropdown",
+          "controlOptions": [
+            {
+              "label": "C#",
+              "value": "C#"
+            },
+            {
+              "label": "Python",
+              "value": "Python"
+            }
+          ]
+        },
+        {
+          "value": "Converted Code",
+          "required": true,
+          "key": "output",
+          "label": "Output",
+          "labelKey": "OUTPUT_LABEL",
+          "baseType": "control",
+          "controlType": "dropdown",
+          "controlOptions": [
+            {
+              "label": "Converted Code",
+              "value": "Converted Code"
+            },
+            {
+              "label": "RAW JSON Response",
+              "value": "RAW JSON Response"
+            }
+          ]
+        },
+        {
+          "value": "",
+          "required": true,
+          "key":"inputCode",
+          "label": "Input Code",
+          "labelKey": "INPUT_CODE_LABEL",
+          "baseType": "control",
+          "controlType": "textarea",
+          "styleClass": "xl-textarea"
+        }
+      ],
+      "index": "1",
+      "label": "main",
+      "labelKey": null
+    }
+  },
+  "message": "SUCCESS"
+}
