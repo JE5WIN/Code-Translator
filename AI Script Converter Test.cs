@@ -1,5 +1,3 @@
-using Ayehu.Sdk.ActivityCreation.Interfaces;
-using Ayehu.Sdk.ActivityCreation.Extension;
 using System.Collections.Generic;
 using System.Net.Http.Headers;
 using System.Net.Http;
@@ -24,7 +22,7 @@ namespace Ayehu.Sdk.ActivityCreation
 
 		public ICustomActivityResult Execute()
 		{
-			string apiKey = "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";
+			string apiKey = "--------------------------";
 			string apiUrl = "https://api.openai.com/v1/chat/completions";
 			string jsonBody = @"
 			{
